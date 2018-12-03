@@ -20,7 +20,11 @@ public class Drive extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	Robot.driveTrain.getJoystickValues(OI.leftStick, OI.rightStick);
+    	//Logitech Controller
+    	//Robot.driveTrain.getJoystickValues(OI.leftStick, OI.rightStick);
+    	
+    	//Xbox One controller
+    	Robot.driveTrain.getJoystickValues(OI.xboxController);
     }
 
     // Make this return true when this Command no longer needs to run execute()

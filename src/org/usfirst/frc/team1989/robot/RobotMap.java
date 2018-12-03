@@ -14,8 +14,8 @@ package org.usfirst.frc.team1989.robot;
  * floating around.
  */
 public class RobotMap {
-	static int placeHolder = 0;
 	
-	static CANTalon1989 right = new CANTalon1989(placeHolder);
-	static CANTalon1989 left = new CANTalon1989(placeHolder);
+	static CANTalon1989 right = new CANTalon1989(0);
+	static CANTalon1989 left = new CANTalon1989(1);
+
 }
